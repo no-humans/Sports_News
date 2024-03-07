@@ -1,6 +1,6 @@
 import React from "react";
 import "./RNews.css";
-import TableDatas from "../Tables/TabelDatas";
+import TableDatas from "../Tables/TableDatas";
 export default function RecentNews() {
   return (
     <div className="container display-flex">
