@@ -1,5 +1,5 @@
 import React from "react";
-import "./News.css"; // Assuming this is your CSS file for News component
+import "./News.css";
 import drink from "../assets/sportsman-drinking-water-training-stationary-bike 1.png";
 import { Database } from "../Database";
 

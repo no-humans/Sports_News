@@ -5,11 +5,13 @@ import { Courosel } from "../../Database";
 
 export default function Coursel1() {
   return (
+    <div>
     <div
       id="carouselExampleCaptions"
       class="carousel slide"
       data-bs-ride="carousel"
     >
+      <div>
       <div class="carousel-indicators">
         <button
           type="button"
@@ -31,6 +33,7 @@ export default function Coursel1() {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+      </div>
       </div>
       <div className="carousel-inner">
         {Courosel &&
@@ -66,6 +69,7 @@ export default function Coursel1() {
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.ArticleMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+}
+.Sports {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+  }
+
+  @media(max-width:1000px)
+{
+    .Sports{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

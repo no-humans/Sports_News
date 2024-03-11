@@ -12,6 +12,15 @@ import ManchesterC from "./assets/i.png";
 import Liverpool from "./assets/i3.png";
 import Chesle from "./assets/06.png";
 import Arsenal from "./assets/04.png";
+import Takewood from "./assets/Boxer.png";
+import Golf from "./assets/golf.png";
+import Cricket from "./assets/cricket.png";
+import BasketBall from "./assets/basketball-equipment 1.png"
+import Hockey from "./assets/hockey-players 1.png"
+import Badminton from "./assets/three-white-shuttlecocks-badminton-racquet 1.png"
+import A from "./assets/A.png"
+import B from "./assets/B.png"
+import C from "./assets/C.png"
 
 export const Database = [
   {
@@ -152,3 +161,53 @@ export const TableData = [
     GD: "0",
   },
 ];
+
+export const RData = [
+  {
+    id: 0,
+    img: Takewood,
+    dateplace: "#Pollar. 87 - 12 July 2023",
+    heading: "Baku 2023 Taekwondo Championships",
+  },
+  {
+    id:1,
+    img:Golf,
+    dateplace:"#Goft. Toni - 20 July 2023",
+    heading:"Open Championship Royal Liverpool Golf",
+  },
+  {
+    id:2,
+    img:Cricket,
+    dateplace:"#Cricket. Toni - 27 July 2023",
+    heading:"Ireland Tour of England Test 2023",
+  },
+];
+
+export const ArticleData=[
+  {
+    id:0,
+    img:BasketBall,
+    profile:A,
+    name:"Jake Will.",
+    date:'04 June 2023',
+    heading:"5 Exercises Basketball Players Should Be Using To Develop Strength",
+    desc:"This article was written by Jake Willhoite from Healthlisted.com Strength in basketball isnt all about a massive body mass or ripped muscles.",
+  },
+  {
+    id:1,
+    img:Hockey,
+    profile:B,
+    name:"Foxi.zacon",
+    date:'03 June 2023',
+    heading:"Golden Knights out to fulfill owner's quest to win Stanley Cup in 6th year",
+    desc:"The Vegas Golden Knights will play the Florida Panthers in the Stanley Cup Final beginning Saturday.",
+  },
+  {
+    id:2,
+    img:Badminton,   
+     profile:C,
+    name:"Bong Lozada",
+    date:'01 June 2023',
+    heading:"Outdoor Badminton Gets Support From Local Federation",
+    desc:"The Badminton World Federation is developing Air Badminton and the countrys governing body, Philippine Badminton Association."},
+]
