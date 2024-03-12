@@ -1,18 +1,31 @@
-.Main{
-    padding-top: 2rem;
+.Main {
+  padding-top: 2rem;
 }
-.sub_main{
-    margin-right: auto;
-    margin-left: auto;
-    width: 93%;
-    background-color: #EBEEF3;
+.sub_main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 93%;
+  background-color: #ebeef3;
 }
 
-.Text{
-    position: relative;
-    padding-top: 3rem;
+.Text > .Emailbox {
+  padding-top: 6rem;
+  padding-left: 3rem;
 }
-.image{
-    justify-content:flex-end;
-    
+.image {
+  justify-content: flex-end;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+.Head h2 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 1;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
 }

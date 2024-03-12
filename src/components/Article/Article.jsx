@@ -10,8 +10,8 @@ export default function Article() {
           {ArticleData &&
             ArticleData.map((e) => {
               return (
-                <div className={Styles.DMain}>
-                  <div className={Styles.EMain} key={e.id}>
+                <div className={Styles.DMain} key={e.id}>
+                  <div className={Styles.EMain} >
                     <div className={Styles.Image}>
                       <img src={e.img} alt="" />
                     </div>

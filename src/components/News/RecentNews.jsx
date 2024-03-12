@@ -15,15 +15,24 @@ import { RData } from "../../Database";
 export default function RecentNews() {
   return (
 <div className={Styles.Article}>
-      <div className={Styles.karate}>
-        <img src={Karate} alt="" />
+      <div className={Styles.karate} style={{position:"relative"}}>
+        <img style={{height:"100%"}} src={Karate} alt="" />
+        <div className={Styles.text} style={{position:"absolute", bottom:"0"}}>
+        <div className={Styles.Paragraph}>
+          <p style={{marginBottom:"0rem"}}>Day 5 Highlights</p>
+        </div>
+        <div className={Styles.Head}>
+          <h4>Baku 2023 World Taekwondo <br /> Championships</h4>
+        </div>
       </div>
+      </div>
+   
       <div className={Styles.news}>
         <div className={Styles.Background}>
         {RData && RData.map((e)=>{
           return (
-            <div className={Styles.IData}>
-          <div className={Styles.NImage } key={e.id}>
+            <div className={Styles.IData}key={e.id}>
+          <div className={Styles.NImage } >
             <img src={e.img} alt="" />
             </div>
             <div className={Styles.NData}>

@@ -8,6 +8,10 @@
     grid-template-columns: repeat(3, 1fr);    
   }
 
+  .Image{
+    width: 100%;
+    justify-content: space-around;
+  }
   @media(max-width:1000px)
 {
     .Sports{

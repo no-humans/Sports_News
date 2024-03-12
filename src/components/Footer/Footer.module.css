@@ -1,0 +1,39 @@
+.Main {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.Right {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 2rem;
+  position: relative;
+}
+.left {
+  padding-top: 2rem;
+}
+
+.Num {
+  background: #2626269c;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.Background {
+  position: relative;
+  z-index: 1;
+  background-image: url(../../assets/Ellipse\ 439.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+ 
+}
+.Background > .Num1 {
+  position: relative;
+  z-index: 2;
+  color: white; 
+  justify-content: center;
+  align-items: center;
+}

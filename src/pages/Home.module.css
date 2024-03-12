@@ -1,4 +1,4 @@
-.main{
+.main {
   margin-right: auto;
   margin-left: auto;
   width: 93%;
@@ -11,111 +11,77 @@
   background-repeat: no-repeat;
   height: 35rem;
   position: relative;
-  width: 71.6rem;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
-
-.text {
-  font-family: sans-serif;
-  font-size: 3rem;
-  position: relative;
-  left: 40%;
-  text-transform: uppercase;
-  color: transparent;
-  background-clip: text;
-  background-image: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
-  
-}
-.basketBallDiv{
+/* .basket_ball::after {
+  content: "";
   position: absolute;
   top: 0;
-  right: 200px;
-}
-.text span{
-  font-family: sans-serif;
-  font-size: 3rem;
-  line-height: 0.43;
-  
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+/* } */ 
+
+.text h2 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 1;
   text-transform: uppercase;
-  width: 47.1rem;
-  color: transparent;
+  background: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
+  -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
+  color: transparent;
+  margin-right: 3rem;
 }
 
 .soccerer {
-  background-image: url(../assets/basketball-player-action-sunset\ 1.png);
   background-repeat: no-repeat;
   background-size: 45rem;
   height: 40rem;
   position: absolute;
-  /* top: 3rem;
-  left: 15rem; */
 }
-
-.first {
-  font-family: sans-serif;
-  font-size: 3rem;
-  left: 9.5rem;
-  line-height: 0.43;
-  position: absolute;
-  text-transform: uppercase;
-  top: 6.2rem;
-  width: 47.1rem;
-}
-.second {
-  font-family: sans-serif;
-  font-size: 3rem;
-  left: 9.5rem;
-  line-height: 0.43;
-  position: absolute;
-  text-transform: uppercase;
-  top: 9.3rem;
-  width: 47.1rem;
-}
-.third {
-  font-family: sans-serif;
-  font-size: 3rem;
-  left: 9.5rem;
-  line-height: 0.4375;
-  position: absolute;
-  text-transform: uppercase;
-  top: 12.2rem;
-  width: 47.1rem;
-}
-.fourth {
-  font-family: sans-serif;
-  font-size: 3rem;
-  left: 9.5rem;
-  line-height: 0.43;
-  position: absolute;
-  text-transform: uppercase;
-  top: 15.2rem;
-  width: 47.1rem;
-}
-.text > span {
-  font-family: sans-serif;
-  font-size: 3rem;
-  line-height: 0.43;
-  position: absolute;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 47.1rem;
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
-}
-.container{
+.Sub_main {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 6px;
   margin-bottom: 35px;
   position: relative;
+}
+.card {
+  justify-content: flex-end;
+}
+.details{
+  color: azure;
+  background: linear-gradient(360deg, #F2F2F2 35.23%, rgba(242, 242, 242, 0) 100%);
+  align-items: center;
+
+}
+.details p,h6{
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .main{
+    margin-right: auto;
+    margin-left: auto;
+    width: 93%;
+    padding-top: 3rem;
+  }
+  .soccerer {
+    background-size: 20rem;
+    height: 15rem;
+  }
+
+  .text h2{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+  }
 }

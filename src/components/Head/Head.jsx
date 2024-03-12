@@ -6,10 +6,10 @@ import { IoSearchOutline } from "react-icons/io5";
 export default function Head() {
   return (
     <div className={Styles.Main}>
-      <nav class="navbar  navbar-expand-lg bg-body-tertiary" className={Styles.Sub_Main}>
+      <nav class="navbar  navbar-expand-lg bg-body-tertiary" style={{justifyContent:"space-between"}} className={Styles.Sub_Main}>
         <div class="d-flex  ">
-          <a class="navbar-brand justify-content-center" href="/">
-            Sports News
+          <a class="navbar-brand justify-content-center" href="/" className={Styles.Logo}>
+            <h5>Sports News</h5>
           </a>
           <button
             class="navbar-toggler"
