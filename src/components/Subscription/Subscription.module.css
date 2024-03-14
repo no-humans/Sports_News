@@ -1,31 +1,118 @@
 .Main {
-  padding-top: 2rem;
+  padding: 1rem;
 }
 .sub_main {
   margin-right: auto;
   margin-left: auto;
-  width: 93%;
-  background-color: #ebeef3;
 }
 
 .Text > .Emailbox {
   padding-top: 6rem;
   padding-left: 3rem;
 }
+
 .image {
   justify-content: flex-end;
+  position: relative;
+  z-index: 999;
+  width: auto;
+}
+.image1 {
+  position: absolute;
+  width: 150px;
+  right: 363px;
 }
 .section {
   display: flex;
   justify-content: space-between;
+  background-color: #ebeef3;
 }
-.Head h2 {
+.Font {
   font-weight: 800;
   font-size: 60px;
   letter-spacing: 1;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
-  -webkit-background-clip: text; 
+  background: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.Emailbox{
+  position: relative;
+  display: inline-block;
+}
+.email_input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; 
+}
+.email_input_button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 57px;
+  height: 100%;
+  cursor: pointer;
+}
+.email_input_image{
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+.email_input_image_wrapper {
+  position: relative;
+  width: fit-content; 
+}
+
+.additional_image {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+@media (max-width: 1000px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Text > .Emailbox {
+    padding-top: 6rem;
+    padding-left: 3rem;
+  }
+  .Text {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .Font {
+    font-size: 40px;
+  }
+  .image {
+    align-self: center;
+    margin-top: 2rem;
+    position: relative;
+    margin-left: 4rem;
+  }
+  .image1 {
+    margin-top: 18rem;
+    position: absolute;
+    margin-right: -11rem;
+  }
+.image > .image_class{
+  width: 50%;
+  align-self: center;
+}
+.image1 > .image1_class{
+  width: 50%;
+}
+.email_input{
+  margin-left: -7rem;
+}
+.image1_class{
+  margin-left: 4rem;
+
+}
 }

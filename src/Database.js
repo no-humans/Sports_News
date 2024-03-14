@@ -1,7 +1,7 @@
 import Bolt from "./assets/1923207.jpg";
 import Sindhu from "./assets/2733480.jpg";
 import Women from "./assets/beautiful-young-african-woman-sports-clothing-running-against-gray-background 1.png";
-import Car from "./assets/car.png";
+// import Car from "./assets/car.png";
 import cycle from "./assets/cyclist-leads-actionfront-view-man-riding-bicycle-racing-road 1.png";
 import fight from "./assets/empty-boxing-arena-waiting-new-round-d-render-illustration 1.png";
 import Horse_rider from "./assets/race-hose 1.png";
@@ -21,6 +21,7 @@ import Badminton from "./assets/three-white-shuttlecocks-badminton-racquet 1.png
 import A from "./assets/A.png"
 import B from "./assets/B.png"
 import C from "./assets/C.png"
+import sportscar from "./assets/fastaccelerating-race-car-formula-one-racing-amid-sunset-generative-ai 1 (1).png"
 
 export const Database = [
   {
@@ -54,7 +55,7 @@ export const Details = [
   },
   {
     id: 1,
-    img: Car,
+    img: sportscar,
     dateplace: "INDYcar- 03 June 2033",
     heading: "IndyCar Deloiete: Dixon quickest in second practice",
   },

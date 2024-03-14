@@ -6,14 +6,15 @@ p{
     margin-bottom: 0;
 }
 .Main{
-    width: 93%;
+    /* width: 93%; */
     margin-right: auto;
     margin-left: auto;
+    padding: 1rem;
 }
 
-.search {
+/* .search {
     justify-content: flex-end !important; 
-  }
+  } */
  .Logo h5{
     font-family: sport;
     font-size: xx-large;
@@ -23,4 +24,29 @@ p{
 a {
     text-decoration: none;
   }
-  
+  .ButtonSubmit{
+    background: #B8C2CE;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+  }
+  .navstyle{
+    padding: 0 20px;
+  }
+  .Logo{
+    padding: 0 8rem 0 0;
+  }
+
+  .search{
+    padding: 0 0 0 8rem;
+  }
+
+  @media (max-width: 1000px) {
+    .Logo{
+        padding: 0 1rem 0 0;
+    }
+    .search{
+        padding: 0 0 0 1rem;
+    }
+  }

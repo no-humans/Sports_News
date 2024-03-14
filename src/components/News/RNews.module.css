@@ -1,49 +1,85 @@
-.Article{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-right: 3rem;
-    margin-left: 3rem;
-    padding-top: 3rem;
-    gap:1rem ;
+.Article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* display: flex;
+    flex-wrap: wrap; */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  gap: 1rem;
 }
-.IData{
-    display: flex;
-    padding: 1rem;
-   
+.IData {
+  display: flex;
+  padding: 1rem;
 }
-.Background{
-    background-color: #EBEEF3;
-    border-radius: 2px;
-    background-size: cover;
-    padding-bottom: 2rem;
-    
+.karate {
+  display: flex;
+  flex-direction: column;
+}
+.Background {
+  background-color: #ebeef3;
+  border-radius: 2px;
+  background-size: cover;
+  padding-bottom: 2rem;
+  margin-top: 41px;
 }
 .button {
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-    text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
 }
-.karate  img{
-    height: 100%;
-    width: 100%;
+.karate img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
 }
-.text{
-    background-color: #DAB88C;
-    /* background: linear-gradient(108.74deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%); */
-    filter: drop-shadow(0px 0px 50px -25px #DAB88C);
-    color: white;
-    width: 100%;
-    border-radius: 5px;
+.text {
+  background-color: #dab88c;
+  /* background: linear-gradient(108.74deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%); */
+  filter: drop-shadow(0px 0px 50px -25px #dab88c);
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  bottom: 48px;
 }
-.NImage, .NData {
-    margin-right: 10px;
+.more_button {
+  outline: none;
+  border: none;
+  background: #b8c2ce;
+  color: white;
+  padding: 6px, 12px, 6px, 7px;
+  border-radius: 3px;
+  gap: 4px;
+}
+
+.NImage,
+.NData {
+  margin-right: 10px;
+}
+.news,
+.Table,
+.karate {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .Article {
+    grid-template-columns: repeat(1, 1fr);
+    
+    /* flex-direction: column; */
+  }
+  /* /* .karate,
+  .news,
+  .Table {
+    /* width: 53%; */
+
+  .Background {
+    margin: 0;
+  }
+  .Table{
+    overflow-x: auto;
   }
 
-@media(max-width:1000px)
-{
-    .Article{
-        grid-template-columns: repeat(1,1fr);
-        width: 100%;
-    }
+
 }

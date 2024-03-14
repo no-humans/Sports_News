@@ -22,12 +22,17 @@ export default function Footer() {
               setValue(newValue);
             }}
           >
+            <a href="https://www.facebook.com">
             <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
+            </a>
+            <a href="https://www.instagram.com">
             <BottomNavigationAction
               label="Instagram"
               icon={<InstagramIcon />}
             />
-            <BottomNavigationAction label="x" icon={<XIcon />} />
+            </a>
+            <a href="https://www.x.com">
+            <BottomNavigationAction  label="x" icon={<XIcon />} /></a>
           </BottomNavigation>
         </Box>
       </div>

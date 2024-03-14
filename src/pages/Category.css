@@ -1,7 +1,8 @@
 .Category {
-    width: 93%;
+    /* width: 93%; */
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
     margin-bottom: 35px;
 }
 
@@ -56,3 +57,19 @@
 }
 
 
+@media (max-width:1000px) {
+    .sqaure{
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .card-div{
+        flex-direction: column;
+    }
+.Category{
+    margin-top: 0 !important;
+}
+}

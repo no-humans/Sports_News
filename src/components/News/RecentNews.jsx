@@ -14,10 +14,12 @@ import { RData } from "../../Database";
 
 export default function RecentNews() {
   return (
+    <div>
 <div className={Styles.Article}>
       <div className={Styles.karate} style={{position:"relative"}}>
-        <img style={{height:"100%"}} src={Karate} alt="" />
-        <div className={Styles.text} style={{position:"absolute", bottom:"0"}}>
+        <h3>Trending News</h3>
+        <img  src={Karate} alt="" />
+        <div className={Styles.text} style={{position:"absolute", bottom:"48px"}}>
         <div className={Styles.Paragraph}>
           <p style={{marginBottom:"0rem"}}>Day 5 Highlights</p>
         </div>
@@ -44,15 +46,15 @@ export default function RecentNews() {
           )
         })}
         <div className={Styles.button}>
-              <button>More</button>
+              <button className={Styles.more_button}>More</button>
             </div>
             </div>
       </div>
-      <div className={Styles.Table}>
+      <div className={Styles.Table} >
+        <h3>Club Ranking</h3>
       <TableContainer sx={{backgroundColor:"#EBEEF3"}} component={Paper}>
       <MUITable sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
-
           <TableRow >
             <TableCell>Club</TableCell>
             <TableCell align="right">GP</TableCell>
@@ -86,6 +88,7 @@ export default function RecentNews() {
       </MUITable>
     </TableContainer>
       </div>
+    </div>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function News() {
           {Database &&
             Database.map((news) => (
               <div className="news-item" key={news.id}>
-                <div>
+                <div className="img-div">
                   <img src={news.img} alt="" className="news-img" />
                 </div>
                 <div
